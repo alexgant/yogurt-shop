@@ -2,6 +2,7 @@
 <!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
+	<link rel="canonical" href="https://yogurt-shop.netlify.com/discuss.html">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>blog - Frozen Yogurt Shop</title>
@@ -12,6 +13,7 @@
 <body>
 	<div id="page">
 		<div id="header">
+
 			<div>
 				<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
 				<ul id="navigation">
@@ -27,6 +29,7 @@
 						</ul>
 					</li>
 					<li class="menu selected">
+						<li class="menu"></li>
 							<a href="discuss.html">Discuss</a>
 						</li>
 					<li>
@@ -75,6 +78,34 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="disqus_thread"></div>
+		<script>
+		
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		
+		var disqus_config = function () {
+		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://yogurt-discussion.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+
 		<div id="footer">
 			<div>
 				<div class="connect">
